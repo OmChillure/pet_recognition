@@ -1,0 +1,40 @@
+:root {
+    --bgcolor: black;
+}
+
+.Rightdiv {
+    height: 80vh;
+    width: 85vh;
+    float: right;
+    margin: 2rem 2rem 0 2rem;
+    /* border: 2px solid red; */
+}
+
+.outerCircle {
+    border: 2px solid white;
+    border-radius: 50%; 
+    height: 100%; 
+    width: 100%;
+    background-color: cyan; /* Set the background color */
+}
+
+.innerCircle {
+    border: 2px solid cyan;
+    background-color: var(--bgcolor); /* Set the background color */
+    border-radius: 50%; 
+    margin: 0.6rem;
+    height: 97%; 
+    width: 97%; 
+}
+
+
+.innerCircle img {
+    height: 73%;
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+@keyframes rotate {
+    
+}
