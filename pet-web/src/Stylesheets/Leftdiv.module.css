@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+
+main{
+    height: 100%;
+}
+
+.h1{
+    color: white;
+    margin: 10rem 0 0 7rem;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 8rem;
+}
+
+.h3{
+    color: white;
+    color: white;
+    margin: 0 0 0 7.5rem;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 5rem;
+}

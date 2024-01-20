@@ -14,23 +14,22 @@ const Navbar = () => {
         <nav>
           <ul className={Style.list}>
             <li>
-              <a href="">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="">Shop's</a>
+              <a href="/Shops.js">Shops</a>
             </li>
             <li>
-              <a href="">Recognizer</a>
+              <a href="/recognizer.js">Recognizer</a>
             </li>
             <li>
-              <a href="">About</a>
+              <a href="/about.js">About</a>
             </li>
           </ul>
         </nav>
 
         <div className={Style.buttons}>
           <button className={Style.signIn}>Sign In</button>
-
           <button className={Style.signUp}>Sign Up</button>
         </div>
 
@@ -41,3 +40,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

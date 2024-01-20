@@ -8,7 +8,7 @@ const Rightdiv = () => {
       <div className={Style.Rightdiv}>
         <div className={Style.outerCircle}>
           <div className={Style.innerCircle}>
-            <img src={Dog} alt="Dog image"></img>
+            <img className={Style.dog} src={Dog} alt="Dog image"></img>
           </div>
         </div>
       </div>

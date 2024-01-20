@@ -15,7 +15,8 @@
     border-radius: 50%; 
     height: 100%; 
     width: 100%;
-    background-color: cyan; /* Set the background color */
+    background-color: cyan; 
+    animation: rotate 15s linear infinite;
 }
 
 .innerCircle {
@@ -25,6 +26,7 @@
     margin: 0.6rem;
     height: 97%; 
     width: 97%; 
+    animation: rotate 15s linear infinite;
 }
 
 
@@ -35,6 +37,29 @@
     margin-left: 10rem;
 }
 
+.dog{
+    height: 73%;
+    width: 20%;
+    margin-top: 5rem;
+    margin-left: 100vh;
+}
+
 @keyframes rotate {
-    
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes stopRotate {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
 }
