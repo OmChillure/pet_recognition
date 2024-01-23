@@ -1,43 +1,31 @@
 import React from "react";
-import logo from "../Assets/logo.png";
 import Style from "../Stylesheets/Navbar.module.css";
+import { Link } from "react-router-dom";
+import logo from "../Assets/logo.png";
 
 const Navbar = () => {
   return (
-    <header>
-      <div className={Style.head}>
-        <div className={Style.logoCont}>
-          <div className={Style.logo}>
-            <img src={logo} alt="Web Logo" />
-          </div>
+    <header className={Style.headContent}>
+      <div className={Style.logoCont}>
+        <div className={Style.logo}>
+          <img src={logo} alt="Web Logo" />
         </div>
-        <nav>
-          <ul className={Style.list}>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/Shops.js">Shops</a>
-            </li>
-            <li>
-              <a href="/recognizer.js">Recognizer</a>
-            </li>
-            <li>
-              <a href="/about.js">About</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div className={Style.buttons}>
-          <button className={Style.signIn}>Sign In</button>
-          <button className={Style.signUp}>Sign Up</button>
-        </div>
-
-        <ham />
       </div>
+      <nav>
+        <ul className={Style.list}>
+          <li><Link to={"/"}>Home</Link></li>
+          <li><Link to={"/shop"}>Shops</Link></li>
+          <li><Link to={"/recong"}>Recognizer</Link></li>
+          <li><Link to={"/about"}>About</Link></li>
+        </ul>
+      </nav>
+      <div className={Style.buttons}>
+        <button className={Style.signIn}>Sign In</button>
+        <button className={Style.signUp}>Sign Up</button>
+      </div>
+      {/* Add your ham component here, assuming it is correctly implemented */}
     </header>
   );
 };
 
 export default Navbar;
-
