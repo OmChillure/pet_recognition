@@ -14,8 +14,8 @@ const Navbar = () => {
       <nav>
         <ul className={Style.list}>
           <li><Link to={"/"}>Home</Link></li>
-          <li><Link to={"/shop"}>Shops</Link></li>
-          <li><Link to={"/recong"}>Recognizer</Link></li>
+          <li><Link to={"/shops"}>Shops</Link></li> {/* Corrected path to "/shops" */}
+          <li><Link to={"/recognizer"}>Recognizer</Link></li>
           <li><Link to={"/about"}>About</Link></li>
         </ul>
       </nav>

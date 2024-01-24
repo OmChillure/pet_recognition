@@ -3,9 +3,9 @@ import "./Stylesheets/Root.css"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home"
 import Navbar from "./Components/Navbar";
-import recong from "./pages/Recognizer";
-import Shops from "./pages/Shops";
-import About from "./pages/About";
+import Recognizer from "./pages/Recognizer.js";
+import Shops from "./pages/Shops.js";
+import About from "./pages/About.js";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route element = {<Home />} path="/" />
       <Route element = {<Shops />} path = "/shops"/>
-      <Route element = {<recong />} path = "/recong"/> 
+      <Route element={<Recognizer />} path="/recognizer" /> 
       <Route element = {<About />} path = "/about"/>
     </Routes>
     </BrowserRouter>
