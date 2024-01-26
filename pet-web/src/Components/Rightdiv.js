@@ -1,5 +1,5 @@
 import React from "react";
-import Dog from "../Assets/back\.png";
+import Dog from "../Assets/back.png";
 import Style from "../Stylesheets/Rightdiv.module.css"
 
 const Rightdiv = () => {
