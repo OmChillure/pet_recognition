@@ -2,49 +2,56 @@
     --bgcolor: black;
 }
 
+.cont{
+    display: flex;
+    float: right;
+}
+
 .Rightdiv {
     height: 80vh;
     width: 85vh;
     float: right;
     margin: 2rem 2rem 0 2rem;
-    /* border: 2px solid red; */
 }
 
 .outerCircle {
     border: 2px solid white;
     border-radius: 50%; 
-    height: 100%; 
-    width: 100%;
+    height: 75vh; /* Set the same height as the container */
+    width: 75vh; /* Set the same width as the container */
     background-color: cyan; 
-    animation: rotate 15s linear infinite;
+    animation: outerCircleAnimation 12s linear infinite;
 }
 
 .innerCircle {
     border: 2px solid cyan;
-    background-color: var(--bgcolor); /* Set the background color */
-    border-radius: 50%; 
-    margin: 0.6rem;
-    height: 97%; 
-    width: 97%; 
-    animation: rotate 15s linear infinite;
+    background-color: var(--bgcolor);
+    border-radius: 50%;
+    margin: 0rem 0 0.28rem --0.1rem; 
+    height: 75vh; /* Adjusted height to keep space for borders */
+    width: 75vh; /* Adjusted width to keep space for borders */
+    animation: innerCircleAnimation 12s linear infinite;
 }
-
 
 .innerCircle img {
     height: 73%;
     width: 50%;
-    margin-top: 4rem;
-    margin-left: 10rem;
+    margin-top: 0;
+    margin-left: 8rem;
+    animation: none;
 }
 
 .dog{
-    height: 73%;
-    width: 20%;
-    margin-top: 5rem;
-    margin-left: 100vh;
+    float: right;
+    margin-left: 61rem;
+    z-index: 1;
+    position: absolute;
+    height: 36rem;
 }
 
-@keyframes rotate {
+
+
+/* @keyframes outerCircleAnimation {
     from{
         transform: rotate(0deg);
     }
@@ -54,7 +61,7 @@
     }
 }
 
-@keyframes stopRotate {
+@keyframes innerCircleAnimation  {
     from{
         transform: rotate(0deg);
     }
@@ -63,3 +70,4 @@
         transform: rotate(360deg);
     }
 }
+ */

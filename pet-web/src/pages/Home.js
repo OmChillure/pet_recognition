@@ -1,6 +1,6 @@
 import React from "react";
-import Rightdiv from "../Components/Rightdiv";
 import Leftdiv from "../Components/Leftdiv";
+import Rightdiv from "../Components/Rightdiv";
 
 function Home() {
   return (
