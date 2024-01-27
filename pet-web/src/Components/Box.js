@@ -13,6 +13,7 @@ function Box() {
   ];
 
   return (
+    <>
     <div className={Style.container}>
       <div className={Style.Box1}>
         <div className={Style.Emptybox}></div>
@@ -31,6 +32,7 @@ function Box() {
         <h3 className={Style.h3}>Shop3</h3>
         <p className={Style.para}></p>
       </div>
+      </div>
 
       <div className={Style.mapContainer}>
         <MapContainer center={[19.000000, 84.0000000]} zoom={4} style={{ width: '100%', height: '400px' }}>
@@ -46,7 +48,7 @@ function Box() {
           ))}
         </MapContainer>
       </div>
-    </div>
+      </>
   );
 }
 

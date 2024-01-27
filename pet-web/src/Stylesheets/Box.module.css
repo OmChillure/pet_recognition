@@ -1,16 +1,39 @@
-.Box1,
-.Box2,
-.Box3{
+.container{
+    display: flex;
+}
+
+
+.Box1{
     background-color: cyan;
-    width: 70%;
-    height: 20vh;
-    margin: 3rem 0 1rem 14rem;
+    width: 50%;
+    height: 200%;
+    margin: 1rem 58px 1rem 5rem;
     border: 2px solid #5ed5d5;
     border-radius: 13px;
     display: flex;
 }
 
-.Emptybox{
+.Box2{
+    background-color: cyan;
+    width: 50%;
+    height: 100%;
+    margin: 1rem 58px 1rem 5rem;
+    border: 2px solid #5ed5d5;
+    border-radius: 13px;
+    display: flex;
+}
+
+.Box3{
+    background-color: cyan;
+    width: 50%;
+    height: 100%;
+    margin: 1rem 58px 1rem 5rem;
+    border: 2px solid #5ed5d5;
+    border-radius: 13px;
+    display: flex;
+}
+
+/* .Emptybox{
     margin: 6px;
     margin-left: 2rem;
     height: 18vh;
@@ -18,16 +41,12 @@
     background-color: black;
     border: 2px solid black;
     border-radius: 13px;
-}
+} */
 
-.h3{
+/* .h3{
     margin: 1rem 0 0 3rem;
     font-size: 25px;
-}
-
-.para{
-
-}
+} */
 
 .mapContainer{
     height: 50%;

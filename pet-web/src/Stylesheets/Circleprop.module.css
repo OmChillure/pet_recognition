@@ -1,0 +1,44 @@
+.img1,
+.img2,
+.img3{
+    position: absolute;
+    z-index: 1;
+}
+
+.dog_img {
+    height: 100px;
+    width: 100px;
+    margin-left: 52rem;
+    margin-top: 18rem;
+    animation: outerCircleAnimation 12s linear infinite;
+}
+
+.cat_img{
+    height: 20px;
+    width: 20px;
+}
+
+.rabbit_img{
+    height: 20px;
+    width: 20px;
+}
+
+@keyframes outerCircleAnimation {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes innerCircleAnimation  {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

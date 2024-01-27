@@ -17,8 +17,8 @@
 .outerCircle {
     border: 2px solid white;
     border-radius: 50%; 
-    height: 75vh; /* Set the same height as the container */
-    width: 75vh; /* Set the same width as the container */
+    height: 76vh; /* Set the same height as the container */
+    width: 75.5vh; /* Set the same width as the container */
     background-color: cyan; 
     animation: outerCircleAnimation 12s linear infinite;
 }
@@ -27,7 +27,7 @@
     border: 2px solid cyan;
     background-color: var(--bgcolor);
     border-radius: 50%;
-    margin: 0rem 0 0.28rem --0.1rem; 
+    margin: 0.1rem 0.1rem 0.1rem 0.1rem; 
     height: 75vh; /* Adjusted height to keep space for borders */
     width: 75vh; /* Adjusted width to keep space for borders */
     animation: innerCircleAnimation 12s linear infinite;

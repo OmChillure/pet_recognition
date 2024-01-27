@@ -62,16 +62,17 @@ p{
 
 .cards{
     width: 90%;
-    height: 95%;
+    height: 47%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 15px;
-    grid-template-rows: repeat(2, 0.8fr);
     justify-content: center;
     align-items: center;
     place-self: center;
     place-items: center;
+    margin-top: 26rem;
 }
+
 .cards>div{
     height: 80%;
     width: 86%;
@@ -89,7 +90,7 @@ p{
 }
 .cards>div:hover{
     transform: scale(1.1);
-
+    filter: drop-shadow(0 0 20px rgba(6, 255, 255, 1));
 }
 .card > .icon{
     height: 37%;
@@ -121,7 +122,6 @@ p{
 }
   
   footer {
-    margin-top:-33.5rem;
     text-align: center;
     padding: 10px;
     background-color: #333;
