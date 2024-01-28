@@ -5,12 +5,25 @@
     z-index: 1;
 }
 
-.dog_img {
+.dog_img{
     height: 100px;
     width: 100px;
     margin-left: 52rem;
     margin-top: 18rem;
-    animation: outerCircleAnimation 12s linear infinite;
+    /* animation: outerCircleAnimation 12s linear infinite; */
+}
+
+.cat_img{
+    height: 118px;
+    width: 104px;
+    margin-left: 52rem;
+    margin-top: 18rem;
+    /* animation: outerCircleAnimation 12s linear infinite; */
+}
+
+.rabbit_img{
+    height: 90px;
+    width: 70px;
 }
 
 .cat_img{
@@ -23,22 +36,27 @@
     width: 20px;
 }
 
-@keyframes outerCircleAnimation {
-    from{
-        transform: rotate(0deg);
-    }
+/* Circleprop.module.css */
 
-    to{
-        transform: rotate(360deg);
-    }
+.img1 img.dog_img{
+  height: 100px;
+  width: 100px;
 }
 
-@keyframes innerCircleAnimation  {
-    from{
-        transform: rotate(0deg);
-    }
 
-    to{
-        transform: rotate(360deg);
-    }
+.img2 img.cat_img {
+    height: 100px;
+    width: 100px;
+    margin-top: 32em;
+    margin-left: 81em;
+    transform: rotate(7deg);
 }
+
+.img3 img.rabbit_img {
+    height: 100px;
+    width: 100px;
+    margin-top: 5.5rem;
+    margin-left: 81em;
+}
+
+

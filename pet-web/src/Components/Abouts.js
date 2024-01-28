@@ -12,17 +12,54 @@ function Abouts() {
       </header>
       <h1>Welcome To Paw Prints</h1>
       <main>
-        <p>
-          Explore our website to discover information about various pet breeds.
-          Whether you are a pet owner, enthusiast, or researcher, we've got you
-          covered. Use our advanced recognition technology to identify and learn
-          more about your favorite furry companions.
-          Check out our comprehensive breed database and stay informed about the
-          latest trends in the world of pets. We are dedicated to providing a
-          user-friendly and informative platform for all pet lovers.
-          Start your journey with us and embrace the world of pet breed
-          recognition!
-        </p>
+        <p>Explore our website to discover information about various pets. Whether you are a pet owner, enthusiast, or researcher, we've got you covered. Use our advanced recognition technology to identify and learn more about your favorite furry companions.</p>
+    
+    <p>Check out our comprehensive database and stay informed about the latest trends in the world of pets. We are dedicated to providing a user-friendly and informative platform for all pet lovers.</p>
+
+    <p>
+        <div >
+            <strong>1. Image Upload and Processing:</strong>
+            <ul>
+                <li>Allow users to upload images of their pets through a user-friendly interface.</li>
+                <li>Process uploaded images using image recognition algorithms to identify the type of pet and possibly its breed.</li>
+            </ul>
+        </div>
+
+        <div>
+            <strong>2. Accurate Pet Identification:</strong>
+            <ul>
+                <li>Utilize advanced image recognition technology to accurately identify different types of pets, including dogs, cats, birds, etc.</li>
+                <li>Provide accurate identification results with high confidence levels.</li>
+            </ul>
+        </div>
+
+        <div>
+            <strong>3. Educational Content:</strong>
+            <ul>
+                <li>Offer educational resources on pet care, behavior, and health to enhance the user experience.</li>
+            </ul>
+        </div>
+
+        <div>
+            <strong>4. Location of different shops in Nagpur:</strong>
+            <ul>
+                <li>Provides different locations of shops which will help you in taking care of your pet.</li>
+            </ul>
+        </div>
+    </p>
+
+    <p>
+        <strong>This website has been engineered through the implementation of:</strong>
+        <ul>
+            <li>React.js</li>
+            <li>Flask (backend)</li>
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Open CV</li>
+        </ul>
+    </p>
+
+    <p>Start your journey with us and embrace the world of pet recognition!</p>
         <h2>A Project By :-</h2>
 
         <section id={Style.whatWeDo}>
