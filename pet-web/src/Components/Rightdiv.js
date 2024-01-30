@@ -16,7 +16,7 @@ const Rightdiv = () => {
       </div>
     </main>
     </div>
-      <img className={Style.dog} src={Dog} alt="Dog image"></img>
+      <img className={Style.dog} src={Dog} alt="Dog"></img>
     </>
   );
 };
