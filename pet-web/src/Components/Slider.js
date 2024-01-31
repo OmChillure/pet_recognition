@@ -1,7 +1,6 @@
 import React from "react";
 import ReactCardSlider from "react-card-slider-component";
 import Style from "../Stylesheets/Box.module.css";
-// import { Carousel } from "@trendyol-js/react-carousel";
 
 const sliderClick = () => {
   // Implement your click event logic here
@@ -10,21 +9,27 @@ const sliderClick = () => {
 
 const slides = [
   {
-    image: "https://picsum.photos/200/300",
-    title: "This is a title",
-    description: "This is a description",
+    image: "../Assets/petsworld.jpg",
+    title: "Pet's world ",
+    description: "Expert Staff having the knowledge and expertise in assisting customers with pet care advice, nutrition, and choosing the right products.",
+    titleStyle: Style.slideTitle,
+    descriptionStyle: Style.slideDescription, 
     clickEvent: sliderClick,
   },
   {
     image: "https://picsum.photos/600/500",
-    title: "This is a second title",
-    description: "This is a second description",
+    title: "The pet's park ",
+    description: "The extensive selection of pet supplies, including food, toys, cages, bedding, and other accessories to meet the needs of different pets are available here .",
+    titleStyle: Style.slideTitle,
+    descriptionStyle: Style.slideDescription,  
     clickEvent: sliderClick,
   },
   {
     image: "https://picsum.photos/700/600",
-    title: "This is a third title",
-    description: "This is a third description",
+    title: "The pet's station",
+    description: "We ensure the health and well-being of the pets, such as regular check-ups, vaccinations, and a clean, sanitized environment.",
+    titleStyle: Style.slideTitle,
+    descriptionStyle: Style.slideDescription,  
     clickEvent: sliderClick,
   },
   {
