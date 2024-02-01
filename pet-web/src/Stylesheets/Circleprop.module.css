@@ -10,7 +10,8 @@
     width: 100px;
     margin-left: 52rem;
     margin-top: 18rem;
-    /* animation: outerCircleAnimation 12s linear infinite; */
+    animation: spin 12s var(--d, 0s) linear infinite;
+    transform: rotate(0) translate(60px) rotate(0); /* Adjust the translation as needed */
 }
 
 .cat_img{
@@ -41,14 +42,17 @@
 .img1 img.dog_img{
   height: 100px;
   width: 100px;
+  margin-top: 13rem;
+  margin-left: 41rem;
+  
 }
 
 
 .img2 img.cat_img {
     height: 100px;
     width: 100px;
-    margin-top: 32em;
-    margin-left: 81em;
+    margin-top: 25rem;
+    margin-left: 62rem;
     transform: rotate(7deg);
 }
 
@@ -56,7 +60,15 @@
     height: 100px;
     width: 100px;
     margin-top: 5.5rem;
-    margin-left: 81em;
+    margin-left: 66rem;
 }
 
 
+@keyframes spin {
+    0% {
+        transform: rotate(0turn) translate(60px) rotate(0turn);
+    }
+    100% {
+        transform: rotate(1turn) translate(60px) rotate(-1turn);
+    }
+}
