@@ -8,16 +8,16 @@ function Abouts() {
   return (
     <>
       <header className={Style.header}>
-        <h1 className={Style.head}>About Us</h1>
+        <h1 className={Style.head}>Welcome To Paw Print</h1>
       </header>
-      <h1>Welcome To Paw Prints</h1>
-      <main>
-        <p>Explore our website to discover information about various pets. Whether you are a pet owner, enthusiast, or researcher, we've got you covered. Use our advanced recognition technology to identify and learn more about your favorite furry companions.</p>
-    
-    <p>Check out our comprehensive database and stay informed about the latest trends in the world of pets. We are dedicated to providing a user-friendly and informative platform for all pet lovers.</p>
+
+    <div className={Style.aboutCont}>
+      <h3>What We Do !!</h3>
+
+        <p>Explore our website to discover information about various pets. Whether you are a pet owner, enthusiast, or researcher, we've got you covered. Use our advanced recognition technology to identify and learn more about your favorite furry companions. Check out our comprehensive database and stay informed about the latest trends in the world of pets. We are dedicated to providing a user-friendly and informative platform for all pet lovers.</p>
 
     <p>
-        <div >
+        <div className={Style.infoPara}>
             <strong>1. Image Upload and Processing:</strong>
             <ul>
                 <li>Allow users to upload images of their pets through a user-friendly interface.</li>
@@ -48,7 +48,7 @@ function Abouts() {
         </div>
     </p>
 
-    <p>
+    <p className={Style.strong}>
         <strong>This website has been engineered through the implementation of:</strong>
         <ul>
             <li>React.js</li>
@@ -59,7 +59,9 @@ function Abouts() {
         </ul>
     </p>
 
-    <p>Start your journey with us and embrace the world of pet recognition!</p>
+    <p className={Style.lastpara}>Start your journey with us and embrace the world of pet recognition!</p>
+    </div>
+
         <h2>A Project By :-</h2>
 
         <section id={Style.whatWeDo}>
@@ -99,7 +101,6 @@ function Abouts() {
         <footer className={Style.footer}>
           <p>&copy; 2024 Pet Breed Recognition. All rights reserved.</p>
         </footer>
-      </main>
     </>
   );
 }

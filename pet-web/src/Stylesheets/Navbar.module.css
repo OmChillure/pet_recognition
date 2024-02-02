@@ -50,14 +50,13 @@ header {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    margin-left: 49%;
-    gap: 9vh;
+    margin-left: 42%;
+    gap: 5vh;
   }
   
   nav ul li {
     font-family: 'Changa', sans-serif;
     display: flex;
-    gap: 5vh;
     font-weight: bolder;
   }
   
