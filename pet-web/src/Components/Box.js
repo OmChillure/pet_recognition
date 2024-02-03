@@ -8,15 +8,16 @@ function Box() {
   const shopCoordinates = [
     { lat: 21.149259, lng: 79.1197123, name: "The Pet Park" },
     { lat: 20.9920376, lng: 79.0860548, name: "Pets World" },
-    { lat: 21.1625024, lng: 79.0458752, name: "The Pets Station" },
+    { lat: 21.1550951, lng: 79.040207, name: "Pets at Home" },
+    { lat: 21.1149424, lng: 78.9550273, name: "Pets Junction" },
+    { lat: 21.1035246, lng: 79.0399646, name: "Pets Master" },
   ];
 
   return (
     <>
-    <Slider />
+      <Slider />
 
       <div className={Style.mapContainer}>
-        {/* Render the Slider component */}
        
         {/* Render the MapContainer */}
         <MapContainer

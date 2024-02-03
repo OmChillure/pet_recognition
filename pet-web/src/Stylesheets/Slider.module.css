@@ -1,0 +1,37 @@
+.product_item {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 2rem 0 0 3rem;
+  height: 62vh;
+  width: 80%;
+  color: white;
+}
+
+.product_name {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.product_description {
+    margin-top: 0.5rem;
+    color: white;
+    margin: 1rem 0 0 0rem;
+}
+
+.product_image{
+    height: 10rem;
+}
+
+.location_icon {
+    margin: 1.5rem 0 0 17rem;
+    color: white;
+    font-size: 16px; 
+}
+
+.location_icon:hover{
+    color: red;
+}
