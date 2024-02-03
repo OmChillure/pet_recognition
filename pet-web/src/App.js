@@ -1,6 +1,5 @@
 import "./Stylesheets/Root.css"
-// import NavBar from "./Components/Navbar";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./pages/Home"
 import Navbar from "./Components/Navbar";
 import Recognizer from "./pages/Recognizer.js";

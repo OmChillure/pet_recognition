@@ -1,7 +1,7 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import Slider from "./Slider.js"
+import Slider from "./Slider.js";
 import Style from "../Stylesheets/Box.module.css";
 
 function Box() {
@@ -18,8 +18,6 @@ function Box() {
       <Slider />
 
       <div className={Style.mapContainer}>
-       
-        {/* Render the MapContainer */}
         <MapContainer
           center={[21.0, 79.25]}
           zoom={9}
