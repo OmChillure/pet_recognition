@@ -1,157 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 
 header {
-    height: 12vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  height: 85%;
+  width: 99%;
+  background-color: var(--navbg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.logo {
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6vh;
+}
+
+.logo img {
+  /* object-fit: contain; */
+  height: 80%;
+  aspect-ratio: 1;
+  border-radius: 4vh;
+  animation: breathing 3s ease-out infinite;
+}
+
+nav {
+  width: 50%;
+  height: 70%;
+  display: flex;
+}
+
+nav ul {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: 42%;
+  gap: 5vh;
+}
+
+nav ul li {
+  font-family: "Changa", sans-serif;
+  display: flex;
+  font-weight: bolder;
+}
+
+nav ul li a {
+  color: var(--inactive);
+  font-family: "Changa", sans-serif;
+  text-align: center;
+  gap: 5vh;
+}
+
+.gamebtn:hover, 
+.shopbtn:hover,
+.aboutbtn:hover,
+.homebtn:hover{
+  border-bottom: 2px solid var(--bordercolor);
+  filter: drop-shadow(0 0 20px rgb(16, 227, 97));
+}
+
+.buttons {
+  width: 12%;
+  height: 55%;
+  display: flex;
+  gap: 1rem;
+  margin-left: 20%;
+}
+
+.scanner {
+  height: 40px;
+  width: 40px;
+  margin: 0 0 0 6rem;
+}
+
+.profile {
+  height: 27px;
+  width: 35px;
+  margin: 2px 0 0 7px;
+}
+
+.scanner:hover,
+.profile:hover{
+  filter: drop-shadow(0 0 20px rgb(16, 227, 97));
+}
+
+@keyframes breathing {
+  0% {
+    transform: scale(0.9);
   }
-  
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 430px) {
   .head {
-    height: 85%;
-    width: 99%;
-    background-color: var(--navbg);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-  }
-  
-  .logo {
-    height: 10vh;
-    width: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 6vh;
-  }
-  
-  .logo img {
-    /* object-fit: contain; */
-    height:80%;
-    aspect-ratio: 1;
-    border-radius: 4vh ;
-    animation: breathing 3s ease-out infinite;
-  }
-  
-  nav {
-    width: 50%;
-    height: 70%;
-    display: flex;
-  }
-  
-  nav ul {
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    margin-left: 42%;
-    gap: 5vh;
-  }
-  
-  nav ul li {
-    font-family: 'Changa', sans-serif;
-    display: flex;
-    font-weight: bolder;
-  }
-  
-  nav ul li a {
-    color: var(--inactive);
-    font-family: 'Changa', sans-serif;
-    text-align: center;
-    gap: 5vh;
-  }
-  
-  a:hover {
-    border-bottom: 2px solid var(--bordercolor);
-    filter: drop-shadow(0 0 20px rgb(16, 227, 97));
+    position: absolute;
+    width: 430px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    background: rgba(244, 248, 248, 0.06);
+    border-radius: 0%;
   }
 
-  .buttons{
-    width: 12%;
-    height: 55%;
-    display: flex;
-    gap: 1rem;
-    margin-left: 20%;
-
+  .logo > img {
+    position: absolute;
+    width: 64px;
+    height: 44px;
+    left: 20px;
+    top: 10px;
   }
 
-  .signIn{
-    width: 70%;
-    border: 0px;
-    border-radius: 0.25rem;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 17px;
-    color: white;
-    background-color: transparent;
+  .img_text {
+    display: none;
   }
 
-  .signUp{
-    width: 70%;
-    border: 0px;
-    border-radius: 0.25rem;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 17px;
-    color: white;
-    background-color: transparent;
-
+  .list {
+    display: none;
   }
 
-  button:hover{
-      border-bottom: 2px solid var(--bordercolor);
-      border-right: 2px solid var(--bordercolor);
-      filter: drop-shadow(0 0 20px rgb(16, 227, 97));
-  }
-  
-  @keyframes breathing{
-    0%{
-      transform: scale(0.9);
-    }
-
-    50%{
-      transform: scale(1.1);
-    }
-
-    100%{
-      transform: scale(0.9);
-    }
-  } 
-
-  @media screen and (max-width: 430px) {
-      .head {
-          position: absolute;
-          width: 430px;
-          height: 63px;
-          left: 0px;
-          top: 0px;
-          background: rgba(244, 248, 248, 0.06);
-          border-radius: 0%;
-      }
-  
-      .logo > img{
-          position: absolute;
-          width: 64px;
-          height: 44px;
-          left: 20px;
-          top: 10px;
-      }
-      
-      .img_text{
-      display: none;
-      }
-  
-      .list{
-          display: none;
-      }
-      
-      /* .list{
+  /* .list{
           
       } */
-      
-    }
-  
+}
