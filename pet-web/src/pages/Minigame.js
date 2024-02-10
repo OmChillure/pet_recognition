@@ -1,10 +1,9 @@
 import React from 'react'
+import Game_l from '../Components/Game_l'
 
 function Minigame() {
   return (
-    <div>
-      
-    </div>
+    <Game_l/>
   )
 }
 
