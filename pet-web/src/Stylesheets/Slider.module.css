@@ -12,6 +12,7 @@
 .product_name {
   text-align: center;
   margin-top: 0.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: white;
 }
@@ -23,7 +24,7 @@
 }
 
 .product_image{
-    height: 10rem;
+    height: 14rem;
 }
 
 .location_icon {

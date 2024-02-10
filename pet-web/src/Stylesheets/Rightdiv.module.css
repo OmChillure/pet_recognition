@@ -11,7 +11,7 @@
     height: 80vh;
     width: 85vh;
     float: right;
-    margin: 0 2rem 0 2rem;
+    margin: 0 0 0 4rem;
 }
 
 .outerCircle {
@@ -33,20 +33,12 @@
     animation: innerCircleAnimation 12s linear infinite;
 }
 
-.innerCircle img {
-    height: 73%;
-    width: 50%;
-    margin-top: 0;
-    margin-left: 8rem;
-    animation: none;
-}
-
 .dog{
     float: right;
-    margin-left: 49rem;
+    margin-left: 64rem; 
     z-index: 1;
     position: absolute;
-    height: 27rem;
+    height: 33rem;
 }
 
 
