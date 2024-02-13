@@ -1,9 +1,11 @@
 import React from 'react'
-import Game_l from '../Components/Game_l'
+// import Games from '../Components/Games'
+import Mini from "../Components/Mini.js"
 
 function Minigame() {
   return (
-    <Game_l/>
+    // <Games />
+    <Mini />
   )
 }
 

@@ -96,7 +96,7 @@ nav ul li a {
 
 .scanner:hover,
 .profile:hover{
-  filter: drop-shadow(0 0 20px rgb(16, 227, 97));
+  border-bottom: 2px solid var(--bordercolor);
 }
 
 @keyframes breathing {
