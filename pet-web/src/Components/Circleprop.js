@@ -1,7 +1,7 @@
 import React from 'react'
 import Style from "../Stylesheets/Circleprop.module.css";
 import Dog from "../Assets/dog.png";
-import Cat from "../Assets/cat.png";
+import Cat from "../Assets/cat6.png";
 import Rabbit from "../Assets/rabbit.png";
 
 function Circleprop() {

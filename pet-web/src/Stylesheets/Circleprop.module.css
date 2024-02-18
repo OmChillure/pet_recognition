@@ -19,10 +19,10 @@
 }
 
 .img2 img.cat_img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin-top: 16rem;
-    margin-left: 71rem; /* Adjusted margin-left value */
+    margin-left: 70rem; /* Adjusted margin-left value */
 }
 
 .img3 img.rabbit_img {

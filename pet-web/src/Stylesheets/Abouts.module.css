@@ -2,14 +2,12 @@
     background-color: #212020;
     height: 20%;
     width: 90%;
-    margin:2rem 0 2rem 4rem ;
+    margin:2rem 0 6rem 4rem ;
     border-radius: 1rem;
     border: 8px solid #333;
     border-bottom: 5px;
     border-right: 5px;
 }
-
-
 
 .head {
     margin: 0;
@@ -25,6 +23,7 @@ h3 {
   }
 
 h2{
+    font-size: xx-large;
     margin-left: 5%;
     color: white;
   }
@@ -47,115 +46,48 @@ li{
     margin-top: 3rem;
 }
 
-#whatWeDo {
-    height: 140vh;
-    width: 100%;
+.cardContainer{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-.head {
-    height: 2.5rem;
-    width: 100%;
-    display: flex;
+    gap: 6rem;
     justify-content: center;
-    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
-.headText {
-    height: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 89%;
-    color: var(--secondarytext);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-
-.WeDoCards {
-    height: 98%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.cards{
-    width: 90%;
-    height: 47%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    place-self: center;
-    place-items: center;
-    margin-top: 26rem;
-}
-
-.cards>div{
-    height: 80%;
-    width: 86%;
-    border-bottom: 2px solid var(--bordercolor);
+.cont1,
+.cont2,
+.cont3 {
+    height: 26rem;
     background-color: var(--cardcolor);
-    border-radius: 9px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    row-gap: 5px;
-    overflow: hidden;
-    transition: all 0.3s ;
-    margin: 0; 
+    border-radius: 1rem;
 }
-.cards>div:hover{
-    transform: scale(1.1);
-    filter: drop-shadow(0 0 20px rgb(0, 255, 76));
-}
-.card > .icon{
-    height: 37%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card > .name{
-    height: 10%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 25px;
-    color: var(--secondarytext);
 
+.cont1:hover,
+.cont2:hover,
+.cont3:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 5px 10px rgb(103, 198, 205); /* Example shadow on hover */
 }
-.card > .description{
-    padding: 2%;
-    height: 50%;
-    width: 80%;
-    border-top: 1px solid #748c96;
-    display: flex;
-    justify-content: center;
-    color: var(--tertiarytext);
 
+
+.h3{
+    margin-left: 6.5rem ;
+    font-size: x-large;
 }
-  
-  footer {
+
+
+.img1,
+.img2,
+.img3{
+    margin: 2rem 0 0 4rem;
+    height: 16rem;
+    width: 13.5rem;
+}
+
+footer {
     text-align: center;
-    padding: 10px;
     background-color: #333;
-  }
-
-.img1 ,
-.img2 ,
-.img3 {
-    margin-top: 10rem;
-    height: 350%;
-    width: 150%;
+    padding: 1px;
 }
+

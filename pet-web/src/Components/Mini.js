@@ -18,6 +18,7 @@ function Games() {
 
   return (
     <>
+      <h2 className={Style.h2}>Guess The Paw Print</h2>
       <div className={Style.game_container}>
         <div className={Style.image_container}>
           <img className={Style.img} src={petImage} alt="Pet" />

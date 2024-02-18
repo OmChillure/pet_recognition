@@ -1,9 +1,11 @@
+.h2{
+  font-size: 3.7rem;
+}
+
 .game_container {
   text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  gap: 10rem;
 }
 
 .image_container {
@@ -14,12 +16,17 @@
   width: 300px; 
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(4, 171, 255, 0.2);
+  height:60vh;
+  width: 60vh;
+  margin: 3rem 0 0 8rem;
 }
 
 .options {
-  margin-top: 20px;
+  margin-top: 12rem;
+  margin-left: 8rem;
   display: inline-block;
-  padding: 20px;
+  padding: 30px;
+  height: 10rem;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
