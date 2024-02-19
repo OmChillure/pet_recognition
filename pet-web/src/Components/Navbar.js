@@ -1,11 +1,22 @@
 import React from "react";
 import Style from "../Stylesheets/Navbar.module.css";
+import style from "../Stylesheets/Profile.module.css";
 import { Link } from "react-router-dom";
 import logo from "../Assets/logo.png";
 import profile from "../Assets/temp.jpeg"
 import scanner from "../Assets/cam.jpeg"
+import { useState } from "react";
 
-const Navbar = () => {
+
+function Navbar() {
+  
+  const [isProfileOpen , setIsProfileOpen] = useState(false);
+
+  const toggleProfileMenu = () => {
+    setIsProfileOpen(!isProfileOpen)
+  }
+
+
   return (
     <header className={Style.headContent}>
       <div className={Style.logoCont}>
@@ -25,7 +36,20 @@ const Navbar = () => {
         <Link to={"/recognizer"}>
           <img className={Style.scanner} src={scanner} alt="Scanner element" />
         </Link>
-        <img className={Style.profile} src={profile} alt="Profile element"></img>
+        <div className={`${style.profile} ${isProfileOpen ? Style.open : ""}`} onClick={toggleProfileMenu}>
+          <img src={profile} alt="Profile element" />
+          {isProfileOpen && (
+            <ul className={style.profileMenu}>
+              <li>
+                <Link to={"/signin"}>Sign In</Link>
+              </li>
+              
+              <li>
+                <Link to={"/signup"}>Sign Up</Link>
+              </li>
+            </ul>
+          )}
+        </div>
       </div>
     </header>
   );

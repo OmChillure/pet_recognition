@@ -6,6 +6,8 @@ import Minigame from "./pages/Minigame.js";
 import Shops from "./pages/Shops.js";
 import About from "./pages/About.js";
 import Recognizer from "./pages/Recognizer.js";
+import Login from "./pages/Login.js";
+import Signupf from "./pages/Signupf.js";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route element={<Minigame />} path="/minigame" /> 
           <Route element={<About />} path="/about" />
           <Route element={<Recognizer />} path="/recognizer" />
+          <Route element={<Login/>} path="/signin"/>
+          <Route element={<Signupf/>} path="/signup"/>
         </Routes>
       </BrowserRouter>
     </>

@@ -1,0 +1,56 @@
+.profile {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .profile img {
+    border-radius: 50%; 
+    width: 32px; 
+    height: 32px;
+  }
+  
+  .profileMenu {
+    position: absolute;
+    top: 100%;
+    left: -20px;
+    background-color: var(--navbg); 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px; 
+    z-index: 1;
+    display: none;
+  }
+  
+  .profileMenu li {
+    list-style: none;
+    width: 5rem;
+  }
+  
+  .profileMenu li a {
+    text-decoration: none;
+    color: white; /* Adjust as needed */
+    display: block;
+    width: 100%;
+    padding: 6px ;
+    margin-left: -20px;
+  }
+  
+  .profileMenu li a:hover {
+    background-color: rgba(164, 157, 157, 0.805); 
+  }
+  
+  /* Open state styles */
+  .profile.open .profileMenu {
+    display: block;
+  }
+  
+ 
+  .profile:hover .profileMenu {
+    display: block; 
+  }
+  
+  .profile:hover img {
+    /* Optional hover effect for the profile image */
+    border: 1px solid #ddd; /* Subtle border */
+  }
+  

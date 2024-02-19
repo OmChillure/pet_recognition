@@ -10,15 +10,14 @@
 
 .image_container {
   position: relative;
+  height: 60vh;
 }
 
 .img {
-  width: 300px; 
-  border-radius: 50%;
   box-shadow: 0 0 20px rgba(4, 171, 255, 0.2);
-  height:60vh;
+  height: 60vh;
   width: 60vh;
-  margin: 3rem 0 0 8rem;
+  margin: 3rem 0 0 1rem;
 }
 
 .options {
